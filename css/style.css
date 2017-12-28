@@ -1,0 +1,1871 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+html,
+body {
+    font-size: 16px;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* OFFSET 2 AANGEPAST */
+
+.offset2aanpassen {
+    margin-left: 0;
+}
+
+p {
+    font-size: 100%;
+    line-height: 1.8em;
+}
+
+.pwhite {
+    color: white;
+}
+
+.h3white {
+    color: white;
+}
+
+h1 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 180%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+.h2white {
+    color: white;
+}
+
+.h1blue {
+    color: #5FA6A8;
+}
+
+@media screen and (max-width: 450px) {
+    .h1intro {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .h1white {
+        font-size: 340% !important
+    }
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+h2 {
+    line-height: 130%;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #21211F;
+}
+
+.menuitems {
+    margin-left: 30px;
+}
+
+li.current a {
+    font-weight: bold;
+    color: #5FA6A8 !important;
+}
+
+#navboekons {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#navboekons:hover {
+    border-color: #5FA6A8;
+}
+
+#navboekons:active {
+    border-color: #3b6a6a;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .logonav {
+        margin-left: -20px;
+    }
+}
+
+.nav-item a:hover {
+    color: #5FA6A8 !important;
+}
+
+.nav-item a:active {
+    color: #3b6a6a !important;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 924px) {
+    .nav-item {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .nav-item {
+        margin-right: 1px;
+    }
+}
+
+.logonav {
+    height: 80px;
+    margin-right: 50px;
+}
+
+.navbar-toggler {
+    margin-top: 25px;
+    border-color: white !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.nav-link a:before,
+.nav-link a:before {
+    position: absolute !important;
+    overflow: hidden !important;
+    content: attr(alt) !important;
+    transition: all 0.3s !important;
+    transform: scale(0.8) !important;
+    opacity: 0 !important;
+}
+
+.nav-link a:hover:before,
+.nav-link a:hover:before {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .socialmedianav {
+        padding-left: 20px;
+    }
+    .nav-link {
+        margin-top: 10px;
+    }
+    .boekonsnav {
+        border: 1px white solid;
+        padding: 5px 10px 5px 10px;
+    }
+    .boekonsnav:hover {
+        border: 1px #5FA6A8 solid;
+    }
+    .boekonsnav:active {
+        border: 1px #3b6a6a solid;
+    }
+    #navboekons {
+        border-width: none;
+        border-style: none;
+    }
+}
+
+
+/* ---------- HOME ------------- */
+
+
+/* HEADER */
+
+#headerbox {
+    z-index: 1;
+}
+
+.rijheaderindex {
+    margin: 0;
+}
+
+#buttonboekhome {
+    background-color: #5FA6A8;
+    margin-top: -75px;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+}
+
+#hrbuttoneboekhome {
+    width: 10%;
+    border-top: solid 2px white;
+}
+
+#buttonboekhome h1,
+#buttonboekhome p {
+    margin-top: 15px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+#buttonboekhome:hover {
+    background-color: #4C8787;
+    cursor: pointer;
+}
+
+#buttonboekhome:active {
+    background-color: #3b6a6a;
+    cursor: pointer;
+}
+
+#afbeeldingheader {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+#afbeeldingheader h1 {
+    color: white;
+    font-family: "Caveat Brush";
+    font-size: 800%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 640px) {
+    #afbeeldingheader h1 {
+        font-size: 600%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #afbeeldingheader h1 {
+        font-size: 450%;
+    }
+}
+
+
+/* INTRO */
+
+#smulmee {
+    padding-top: 60px;
+}
+
+.teksteersteblock1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.teksteersteblock2 {
+    text-align: center;
+}
+
+.hrintrohome {
+    border-top: dotted 5px #5FA6A8;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+/* ONS VERHAAL */
+
+#tekstblockmidden {
+    padding: 70px;
+    background-color: #21211F;
+    color: white;
+}
+
+.h1onsverhaal {
+    color: #5FA6A8;
+    margin-bottom: 30px;
+}
+
+.btnonsverhaal {
+    color: white;
+    margin-top: 35px;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.btnonsverhaal:hover {
+    background-color: white;
+    border-color: white;
+    border-radius: 0px;
+    color: black;
+}
+
+.btnonsverhaal:hover {
+    background-color: white;
+    border-color: white;
+    border-radius: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+#tekstblockmidden h1 {
+    margin-bottom: 50px;
+    max-width: 350px;
+}
+
+.rijonsverhaaltekst {
+    height: 150px;
+    background-color: red;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+#tekstblockmidden p {
+    max-width: 350px;
+    font-size: 1.3em;
+}
+
+.rijonsverhaal {
+    height: 300px;
+    z-index: 1;
+}
+
+#pheaderblauw {
+    margin: 80px 30px 0px 30px;
+    font-size: 140%;
+}
+
+#headerblauw h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    font-size: 600%;
+    color: white;
+    line-height: 1.2em;
+}
+
+.subtitel {
+    font-style: italic;
+    font-family: 'Playfair Display';
+    margin: 60px 30px 0px 30px;
+    color: #073030;
+}
+
+.img {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+}
+
+
+/* ONS TEAM */
+
+#onsteam {
+    text-align: center;
+    padding: 100px;
+}
+
+
+/* ASSORTIMENT */
+
+#assortiment {
+    height: 400px;
+    background-color: grey;
+}
+
+#boxassortimenttekst {
+    padding: 100px;
+}
+
+.tekstrechts {
+    padding: 50px 80px 0px 150px;
+}
+
+@media screen and (max-width: 550px) {
+    .tekstrechts {
+        padding: 60px 50px 0px 60px;
+    }
+}
+
+.tekstrechts h2 {
+    color: white;
+}
+
+.tekstrechts p {
+    color: white;
+    font-size: 1.3em;
+    max-width: 350px;
+}
+
+.buttonassortiment {
+    margin-top: 30px;
+}
+
+.h1white {
+    color: white;
+    font-size: 500%;
+    line-height: 1.2em;
+}
+
+.rijassortiment {
+    background-color: #5FA6A8;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+#imgassortimenthome {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 30px solid #5FA6A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+}
+
+
+/* NIEUWSBRIEF */
+
+
+/*
+#boxnieuwsbrief {
+    text-align: center;
+}
+
+.form {
+    padding-top: 50px;
+    margin: 0 auto;
+    float: none;
+}
+
+.form-control{
+    border-color: #21211F;
+    border-radius:0px;
+}
+
+.emailcol, .submitcol{
+    margin-left:-15px;
+}
+
+.btnnieuwsbriefsubmit{
+    background-color:transparent;
+    border-radius:0px;
+    color:black;
+    border-color: #5FA6A8;
+}
+
+.btnnieuwsbriefsubmit:hover{
+    background-color: #5FA6A8;
+    color:white;
+    border-color: #5FA6A8;
+}
+*/
+
+
+/* TEST NIEUWSBRIEF */
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+}
+
+.btnnieuwsbrief {
+    background-color: #5FA6A8;
+    color: white;
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btnnieuwsbrief:hover {
+    background-color: #4C8787;
+}
+
+.btnnieuwsbrief:active {
+    background-color: #4C8787;
+}
+
+#boxnieuwsbrief h1 {
+    margin-bottom: 70px;
+}
+
+.rijnieuwsbrief {
+    margin-bottom: 30px;
+}
+
+
+/* LAATSTE BLOCK */
+
+#laatsteblock {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#quotecontainer {
+    min-height: 230px;
+    background-color: #5FA6A8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#quotecontainer h1 {
+    color: white;
+    font-family: "Caveat Brush";
+    font-size: 350%;
+    margin-top: 20px;
+}
+
+#quotecontainer h3 {
+    color: white;
+    font-family: 'Patrick Hand SC', cursive;
+    margin-bottom: 20px;
+}
+
+
+/* ------------- ONS VERHAAL -------------- */
+
+#headerblauw {
+    height: 500 px;
+    background-color: #5FA6A8;
+    padding: 40px 0px 5px 0px;
+    margin-bottom: 50px;
+}
+
+.divtestverhaal {
+    margin-left: 50px;
+}
+
+.afbeeldingonsverhaal {
+    z-index: 1;
+}
+
+.rijtekstonsverhaal {
+    margin-top: 80px;
+}
+
+.containertest {
+    margin-top: -20px;
+    z-index: 3;
+    position: relative;
+    width: 100%;
+}
+
+.pafbeeldingonsverhaallinks {
+    background-color: red;
+    margin-top: -20px;
+    z-index: 3;
+    margin-left: 20px;
+    margin-right: -30px;
+    position: relative;
+    width: 60%;
+}
+
+.order-first {
+    order: -1;
+}
+
+.ptest {
+    position: absolute;
+    bottom: 15;
+}
+
+.test2 {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#quotecontainerverhaal {
+    min-height: 230px;
+    background-color: #5FA6A8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 80px 0px 60px 0px;
+}
+
+#quotecontainerverhaal h1 {
+    color: white;
+    font-family: "Caveat Brush";
+    font-size: 450%;
+    margin-top: 10px;
+}
+
+#quotecontainerverhaal h3 {
+    color: white;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 200%;
+}
+
+#quote {
+    margin: 0px 15px 0px 15px;
+}
+
+.afbeeldingtest {
+    position: relative;
+}
+
+#dottedhr {
+    border-top: dotted 5px white;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#divhr {
+    padding-top: 50px;
+    margin-bottom: -75px;
+}
+
+.videoonsverhaal {
+    margin-bottom: -20px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rijvideo {
+    margin-bottom: 100px;
+    background-color: #21211F;
+    margin-top: 100px;
+}
+
+.videostijl {
+    padding: 70px 70px 70px 90px;
+    color: white;
+}
+
+@media screen and (max-width: 350px) {
+    .videostijl {
+        padding: 70px 50px 70px 50px;
+    }
+}
+
+.videostijl p {
+    margin-top: 60px;
+    line-height: 1.8em;
+}
+
+#map {
+    height: 500px;
+}
+
+
+/* INTRO AFBEELDING */
+
+#rijintroafbeelding {
+    height: 300px;
+    margin-top: 50px;
+    background-color: red;
+}
+
+#introafbeeldingonsverhaal {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#introafbeeldingonsverhaal h1 {
+    color: white;
+    font-size: 400%;
+}
+
+#tekstonsverhaal {
+    margin-top: 80px;
+}
+
+#rijintroonsverhaal {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    #headerblauw h1 {
+        font-size: 450%;
+    }
+    .headerblauwassortiment {
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #introafbeeldingonsverhaal h1 {
+        font-size: 350%;
+    }
+    #headerblauw h1 {
+        font-size: 300%;
+    }
+}
+
+.palinea1 {
+    padding-left: 60px;
+}
+
+.palinea2 {
+    margin-right: 60px;
+}
+
+.divalinea2 {
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 991px) {
+    .palinea1,
+    .divalinea2 {
+        padding-left: 12px;
+    }
+    .palinea2 {
+        margin-right: 0px;
+    }
+    .divalinea2 {
+        padding-left: 12px;
+    }
+    .h1onsverhaal {
+        margin-top: 30px;
+    }
+}
+
+#kroquetaday {
+    min-height: 230px;
+    background-color: #5FA6A8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#kroquetaday hr {
+    border-color: white;
+    border-top: dotted 5px;
+    width: 100%;
+}
+
+#kroquetaday h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#kroquetaday h3 {
+    margin-bottom: 30px;
+}
+
+
+/* BOEK ONS */
+
+#boekons {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5FA6A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#boekons h1 {
+    color: white;
+    margin: 30px 0px 30px 0px;
+}
+
+.h3form {
+    margin-top: 60px;
+}
+
+.btnboekons {
+    color: white;
+    border-color: white;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+
+.btnboekons:hover {
+    background-color: white;
+    color: #21211F;
+    cursor: pointer;
+    border-color: white;
+}
+
+.btnboekons:active {
+    background-color: white;
+    color: #21211F;
+    cursor: pointer;
+    border-color: white;
+    font-weight: bold;
+}
+
+
+/* AFSLUITENDE HR */
+
+.afsluitendehr {
+    border-top: dotted 5px #5FA6A8;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+/****** ONS ASSORTIMENT *****/
+
+#headerblauwassortiment {
+    height: 500 px;
+    background-color: #5FA6A8;
+    padding: 40px 0px 30px 0px;
+    margin-bottom: 50px;
+}
+
+#headerblauwassortiment h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    font-size: 600%;
+    color: white;
+    line-height: 1.2em;
+}
+
+
+/*
+
+@media screen and (max-width: 760px) {
+    #headerblauwassortiment h1 {
+      font-size:400%;
+    }
+
+    @media screen and (max-width: 430px) {
+    #headerblauwassortiment h1 {
+          font-size:300%;
+        }
+
+@media screen and (max-width: 576px) {
+    .subtitel{
+        margin-left:30px;
+    }
+
+    #headerblauwassortiment h1{
+        margin-left:30px;
+    }
+            }
+
+    
+
+/* GALERIJ */
+
+#divhoverafbeelding {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h2assortiment {
+    color: white;
+}
+
+#hoverafbeelding p {
+    z-index: 2;
+    max-resolution: top -12px;
+    0px;
+}
+
+#hoverafbeelding img {
+    z-index: 1;
+}
+
+.h1test {
+    z-index: 2;
+    margin-top: -110px;
+}
+
+.imgtest {
+    z-index: 1;
+}
+
+.card-title h2 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#colcard {
+    margin-bottom: 30px;
+}
+
+.imgcardassortiment {
+    width: 100%;
+}
+
+
+/*****  *****/
+
+
+/*---------------*/
+
+.divkolom {
+    max-width: 80%;
+}
+
+@media screen and (max-width: 400px) {
+    .divkolom {
+        margin-top: 20px;
+    }
+}
+
+.divcard .card-img-overlay::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+    background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+}
+
+.divcard h1 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    color: #484c61;
+    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+    transition: transform 0.35s, color 0.35s;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+
+.divcard .card-img-overlay::before,
+.divcard h1 {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.divcard h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+}
+
+.divcard:hover h1 {
+    color: #fff;
+    -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+    transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+}
+
+.divcard:hover .card-img-overlay::before,
+.divcard:hover h1 {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#assortikroquetten h1 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#rijformules {
+    background-color: grey;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+#kolomformules {
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+#kolomformules p {
+    margin: 50px 50px 0px 50px;
+    color: white;
+}
+
+#kolomformules h1 {
+    color: white;
+    font-size: 400%;
+}
+
+.btnformule {
+    background-color: transparent;
+    border-color: #5FA6A8;
+    border-radius: 0px;
+    color: #5FA6A8;
+}
+
+.btnformule:hover {
+    background-color: #5FA6A8;
+    border-color: #5FA6A8;
+    color: white;
+}
+
+.btnformule:active {
+    background-color: #3b6a6a;
+    border-color: #3b6a6a;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* CAROUSEL */
+
+.colcaroussellinks {
+    margin-left: 5px;
+}
+
+.card {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: box-shadow .25s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: all .25s ease;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.textcard {
+    margin: 40px 0px 40px 0px;
+    font-weight: bold;
+}
+
+.card-title h4 {
+    color: black;
+    text-decoration: none !important;
+}
+
+.card-body {
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+#rijcarousel {
+    margin-top: -100px;
+    z-index: 4;
+}
+
+#rijformulekolom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kolomiconen {
+    margin-left: 10px;
+}
+
+.carousel-indicators {
+    margin-bottom: 30px;
+}
+
+.indicators {
+    background-color: #21211F !important;
+}
+
+.carousel-control-prev {
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 100px;
+}
+
+.carousel-control-next {
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-top: -80px;
+    margin-right: 100px;
+}
+
+.carouselboekonslinks {
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-top: -100px;
+    margin-left: 0px;
+}
+
+.carouselboekonsrechts {
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-top: -100px;
+    margin-right: 0px;
+}
+
+
+/*
+
+
+/********* BOEK ONS PAGINA *********/
+
+
+/* FORMULIER */
+
+#formulierboeken h3 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+#formulierboeken hr {
+    margin-left: 30px;
+    border-top: solid 1px #5FA6A8;
+    margin-bottom: 50px;
+}
+
+.pcarouselform {
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+#popmerkingen {
+    font-style: italic;
+    margin-left: 30px;
+}
+
+label>input {
+    /* HIDE RADIO */
+    visibility: hidden;
+    /* Makes input not-clickable */
+    position: absolute;
+    /* Remove input from document flow */
+}
+
+label>input+img {
+    /* IMAGE STYLES */
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+label>input:checked+img {
+    /* (RADIO CHECKED) IMAGE STYLES */
+    border: 2px solid #5FA6A8;
+}
+
+.imgradio {}
+
+.d-none {
+    display: none;
+}
+
+.d-lg-none {
+    display: none;
+}
+
+.pformboek {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+#kiesformule {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#buttonformulier {
+    margin-top: 30px;
+}
+
+#formulierboekons {
+    margin-bottom: 60px;
+}
+
+.rijboekonsform {
+    margin-top: 100px;
+}
+
+#box1,
+#box3 {
+    height: 25%;
+}
+
+#box2 {
+    height: 50%;
+    background-color: #21211F;
+}
+
+.h1vindonshier {
+    font-size: 350%;
+    color: #5FA6A8;
+    margin-top: 50px
+}
+
+.pvindonshier {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.hrmaps {
+    border-top: #5FA6A8 3px solid;
+}
+
+@media screen and (max-width: 577px) {
+    .h1boekons,
+    .h1vindonshier {
+        font-size: 200%;
+    }
+}
+
+
+/* TESTIMONIAL */
+
+#formulierR {
+    padding-left: 50px;
+}
+
+.carouseltotaal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.carousel-item {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+
+
+/****** CONTACT ****/
+
+#contactformulier {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#kolomcontactformulier {
+    border: #5FA6A8 solid 2px;
+}
+
+#contactformulierlinks h1 {
+    padding-top: 30px;
+}
+
+#formcontact {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#buttoncontactformulier {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#contactgegevens {
+    background-color: #5FA6A8;
+}
+
+#tekstcontactgegevens {
+    margin-left: 20px;
+}
+
+#contactgegevens h2 {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+#tekstcontactgegevens p {
+    margin: 20px 0px 30px 0px;
+    color: white;
+}
+
+.iconcontact {
+    color: #417C7C;
+}
+
+.rijmaps {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.tekstmaps p {
+    margin-top: 30px;
+}
+
+.tweederijmaps {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.colmaps {
+    border: solid 2px #5FA6A8;
+}
+
+
+/* FOOTER **/
+
+.footer {
+    background: #21211F;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.socialmediafooter {
+    float: right;
+}
+
+.footer p {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.footer img {
+    max-width: 100%;
+}
+
+.tekstfooter {
+    color: white;
+    line-height: 27px;
+    padding: 40px 0 10px;
+}
+
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+.footer a {
+    color: white;
+    margin-left: 15px;
+}
+
+.footer a:hover {
+    color: #5FA6A8;
+}
+
+.footer a:active {
+    color: #3b6a6a;
+}
+
+.supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.newsletter-box input#appendedInputButton {
+    background: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    clear: both;
+    width: 100%;
+}
+
+.newsletter-box .btn {
+    border: medium none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.newsletter-box {
+    overflow: hidden;
+}
+
+.bg-gray {
+    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.fafooter {
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    background: #5FA6A8;
+}
+
+.pfooterartevelde {
+    margin: 5px 10px 15px 10px;
+    font-size: 80%;
+    color: white;
+}
+
+.payments {
+    font-size: 1.5em;
+}
+
+#map {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 577px) {
+    .tekstfooter {
+        font-size: 12px;
+        padding-top: 0px;
+    }
+    .colfooter {
+        margin-left: 40px;
+    }
+    .pfooterartevelde {
+        font-size: 12px;
+    }
+    .footerbert {
+        margin-top: 30px;
+    }
+}
+
+.flag-banner {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    margin-top: -58px;
+    margin-left: -60px;
+    margin-right: 30px;
+    z-index: 6;
+    position: relative;
+}
+
+.flag-banner-links {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    margin-top: -58px;
+    margin-left: 30px;
+    margin-right: -30px;
+    z-index: 6;
+    position: relative;
+}
+
+@media screen and (max-width: 991px) {
+    .image-text .col-image {
+        min-height: 400px;
+    }
+}
+
+
+/*
+@media screen and (min-width: 992px) {
+    .offset-lg-3 {
+        margin-left:0;
+    }
+
+    .col-lg-3{
+        max-width:25%;
+    }
+}
+
+*/
+
+.overlay {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 3em;
+    text-align: left;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 60px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+}
+
+.hovereffect h1 {
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    font-size: 180%;
+    background-color: transparent;
+    padding: 15% 0 10px 0;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+}
+
+.hovereffect .overlay:before {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid #fff;
+    content: '';
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+}
+
+.hovereffect p,
+.hovereffect h1 {
+    color: white;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+}
+
+.hovereffect:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.hovereffect:hover .overlay:before,
+.hovereffect:hover p,
+.hovereffect:hover h1 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.container .title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+    opacity: 1;
+}
+
+.content-image {
+    width: 100%;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
+
+*/ .col-item {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.col-item .photo img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info {
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+
+.col-item .price {
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5 {
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color {
+    color: #219FD1;
+}
+
+.col-item .info .rating {
+    color: #777;
+}
+
+.col-item .rating {
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator {
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.col-item .separator p {
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i {
+    margin-right: 5px;
+}
+
+.col-item .btn-add {
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add {
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+
+.controls {
+    margin-top: 0px;
+}
+
+[data-slide="prev"] {
+    margin-right: 10px;
+}
+
+*/
