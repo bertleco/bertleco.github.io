@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+
 html,
 body {
     font-size: 16px;
@@ -314,6 +315,9 @@ li.current a {
     color: white;
 }
 
+
+
+
 .h1onsverhaal {
     color: #5FA6A8;
     margin-bottom: 30px;
@@ -321,7 +325,7 @@ li.current a {
 
 .btnonsverhaal {
     color: white;
-    margin-top: 35px;
+    margin-top: 15px;
     border-color: white;
     border-radius: 0px;
 }
@@ -357,6 +361,10 @@ li.current a {
     max-width: 350px;
     font-size: 1.3em;
 }
+
+
+
+
 
 .rijonsverhaal {
     height: 300px;
@@ -468,42 +476,7 @@ li.current a {
 /* NIEUWSBRIEF */
 
 
-/*
-#boxnieuwsbrief {
-    text-align: center;
-}
 
-.form {
-    padding-top: 50px;
-    margin: 0 auto;
-    float: none;
-}
-
-.form-control{
-    border-color: #21211F;
-    border-radius:0px;
-}
-
-.emailcol, .submitcol{
-    margin-left:-15px;
-}
-
-.btnnieuwsbriefsubmit{
-    background-color:transparent;
-    border-radius:0px;
-    color:black;
-    border-color: #5FA6A8;
-}
-
-.btnnieuwsbriefsubmit:hover{
-    background-color: #5FA6A8;
-    color:white;
-    border-color: #5FA6A8;
-}
-*/
-
-
-/* TEST NIEUWSBRIEF */
 
 .home-newsletter .single .form-control {
     height: 50px;
@@ -908,28 +881,6 @@ li.current a {
 }
 
 
-/*
-
-@media screen and (max-width: 760px) {
-    #headerblauwassortiment h1 {
-      font-size:400%;
-    }
-
-    @media screen and (max-width: 430px) {
-    #headerblauwassortiment h1 {
-          font-size:300%;
-        }
-
-@media screen and (max-width: 576px) {
-    .subtitel{
-        margin-left:30px;
-    }
-
-    #headerblauwassortiment h1{
-        margin-left:30px;
-    }
-            }
-
     
 
 /* GALERIJ */
@@ -984,10 +935,6 @@ li.current a {
 }
 
 
-/*****  *****/
-
-
-/*---------------*/
 
 .divkolom {
     max-width: 80%;
@@ -1213,7 +1160,6 @@ li.current a {
 }
 
 
-/*
 
 
 /********* BOEK ONS PAGINA *********/
@@ -1243,21 +1189,16 @@ li.current a {
 }
 
 label>input {
-    /* HIDE RADIO */
     visibility: hidden;
-    /* Makes input not-clickable */
     position: absolute;
-    /* Remove input from document flow */
 }
 
 label>input+img {
-    /* IMAGE STYLES */
     cursor: pointer;
     border: 2px solid transparent;
 }
 
 label>input:checked+img {
-    /* (RADIO CHECKED) IMAGE STYLES */
     border: 2px solid #5FA6A8;
 }
 
@@ -1459,7 +1400,7 @@ label>input:checked+img {
     display: block;
 }
 
-.footer a {
+.footerlinks {
     color: white;
     margin-left: 15px;
 }
@@ -1470,7 +1411,17 @@ label>input:checked+img {
 
 .footer a:active {
     color: #3b6a6a;
+    font-weight:bold;
 }
+
+.linkdossier{
+    color:white;
+}
+
+.linkdossier:hover{
+    text-decoration:none;
+}
+
 
 .supportLi h4 {
     font-size: 20px;
@@ -1586,20 +1537,6 @@ label>input:checked+img {
         min-height: 400px;
     }
 }
-
-
-/*
-@media screen and (min-width: 992px) {
-    .offset-lg-3 {
-        margin-left:0;
-    }
-
-    .col-lg-3{
-        max-width:25%;
-    }
-}
-
-*/
 
 .overlay {
     background-position: 50% 50%;
@@ -1868,4 +1805,3 @@ label>input:checked+img {
     margin-right: 10px;
 }
 
-*/
