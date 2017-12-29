@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
-
 html,
 body {
     font-size: 16px;
@@ -315,9 +314,6 @@ li.current a {
     color: white;
 }
 
-
-
-
 .h1onsverhaal {
     color: #5FA6A8;
     margin-bottom: 30px;
@@ -361,10 +357,6 @@ li.current a {
     max-width: 350px;
     font-size: 1.3em;
 }
-
-
-
-
 
 .rijonsverhaal {
     height: 300px;
@@ -474,9 +466,6 @@ li.current a {
 
 
 /* NIEUWSBRIEF */
-
-
-
 
 .home-newsletter .single .form-control {
     height: 50px;
@@ -881,8 +870,6 @@ li.current a {
 }
 
 
-    
-
 /* GALERIJ */
 
 #divhoverafbeelding {
@@ -933,8 +920,6 @@ li.current a {
 .imgcardassortiment {
     width: 100%;
 }
-
-
 
 .divkolom {
     max-width: 80%;
@@ -1158,8 +1143,6 @@ li.current a {
     margin-top: -100px;
     margin-right: 0px;
 }
-
-
 
 
 /********* BOEK ONS PAGINA *********/
@@ -1400,8 +1383,12 @@ label>input:checked+img {
     display: block;
 }
 
-.footerlinks {
+.footer a {
     color: white;
+}
+
+.fa-facebook,
+.fa-youtube-play {
     margin-left: 15px;
 }
 
@@ -1411,17 +1398,16 @@ label>input:checked+img {
 
 .footer a:active {
     color: #3b6a6a;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-.linkdossier{
-    color:white;
+.linkdossier {
+    color: white;
 }
 
-.linkdossier:hover{
-    text-decoration:none;
+.linkdossier:hover {
+    text-decoration: none;
 }
-
 
 .supportLi h4 {
     font-size: 20px;
@@ -1804,4 +1790,3 @@ label>input:checked+img {
 [data-slide="prev"] {
     margin-right: 10px;
 }
-
